@@ -41,9 +41,9 @@ export default function NavDisplay() {
     return (<div className = "navbar">
         <ul className = "topbar">
             <li className = "homebutton" onMouseDown={mouseDown} onMouseUp={mouseUp} onMouseEnter={mouseHover}>{cat}</li>
-            <li className = "navbutton"><a href = "#projects">Projects</a></li>
-            <li className = "navbutton"><a href = "#fun">Fun</a></li>
-            <li className = "navbutton"><a href = "#about">About</a></li>       
+            <li className = "navbutton"><a className = "navlink" href = "#projects">Projects</a></li>
+            <li className = "navbutton"><a className = "navlink" href = "#fun">Fun</a></li>
+            <li className = "navbutton"><a className = "navlink" href = "#about">About</a></li>       
         </ul>
     </div>)
 }

@@ -1,47 +1,38 @@
-@import "../stylesheet.css";
-
-.navbar{
+.foot {
     font-family: 'sometype', Times, serif;
     font-size: 12px;
+    width: 100%;
 }
 
-.topbar {
+.footlist {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    top: 0;
+    bottom: 0;
     width: 100%;
     overflow: hidden;
     position: fixed;
 }
 
-.homebutton a {
-    font-family: 'arialuni', Arial, sans-serif;
-    float: left;
-    width: 50px;
-    display: block;
-    color: #131313;
-    text-decoration: none;
-    margin-left: 52px;
-    margin-right: 50px;
-    margin-top: 30px;
-    display: inline;
-}
-
-.navlink {
-    font-family: 'sometype', Times, serif;
+.foottext {
     float: left;
     display: block;
     color: #131313;
     text-decoration: none;
-    margin-top: 50px;
-    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
     margin-right: 30px;
     display: inline;
     position: relative;
+    font-weight: bold;
 }
 
-.navlink::before {
+.footlink {
+    color: #131313;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.footlink::before {
     content: '';
     position: absolute;
     display: block;
@@ -55,7 +46,7 @@
     transition: transform 0.3s ease-out;
 }
 
-.navlink:hover::before {
+.footlink:hover::before {
     transform: scaleX(1);
     transform-origin: bottom left;
 }

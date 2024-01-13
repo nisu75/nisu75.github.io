@@ -7,6 +7,8 @@ html, body, #root, .App {
   background-color: #FEF0F3;
   color: #131313;
   height:100%;
+  display: flex;
+  flex-direction: column;
 }
 
 

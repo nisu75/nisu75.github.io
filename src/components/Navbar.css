@@ -59,3 +59,7 @@
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+.navlink.active {
+    font-style: italic;
+}

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5cb43e4b.css",
+    "main.js": "/static/js/main.0b6166e4.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/arialuni.ttf": "/static/media/arialuni.ebf078e8d1a419d60e1f.ttf",
+    "static/media/inter.ttf": "/static/media/inter.853e01975d2783d9fa29.ttf",
+    "static/media/sometype-italic.ttf": "/static/media/sometype-italic.9406a71acc18cb8ad5d0.ttf",
+    "static/media/sometype.ttf": "/static/media/sometype.d04a24772c5b1509f43a.ttf",
+    "static/media/inter.woff": "/static/media/inter.d6945a350076f51e771c.woff",
+    "static/media/sometype-italic.woff": "/static/media/sometype-italic.74f4471ea2d1cdea1390.woff",
+    "static/media/sometype.woff": "/static/media/sometype.f5db05900887216d7f39.woff",
+    "static/media/arialuni.woff": "/static/media/arialuni.18f6f950f87b8f73c16e.woff",
+    "static/media/inter.woff2": "/static/media/inter.e7aa73b8822a055f7468.woff2",
+    "static/media/sometype-italic.woff2": "/static/media/sometype-italic.b1a20c2d1ad1b10a59c8.woff2",
+    "static/media/sometype.woff2": "/static/media/sometype.467511c1d5d0a7c11fae.woff2",
+    "static/media/arialuni.woff2": "/static/media/arialuni.36524e8d9357cb856722.woff2",
+    "index.html": "/index.html",
+    "main.5cb43e4b.css.map": "/static/css/main.5cb43e4b.css.map",
+    "main.0b6166e4.js.map": "/static/js/main.0b6166e4.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cb43e4b.css",
+    "static/js/main.0b6166e4.js"
+  ]
+}

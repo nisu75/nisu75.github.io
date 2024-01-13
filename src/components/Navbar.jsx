@@ -8,14 +8,15 @@ export default function NavDisplay() {
     const cat2 = <a href = "#home">∧,,,,∧<br/>( ✧ω✧)</a>;
     const cat3 = <a href = "#home">∧,,,,∧<br/>(  *ˊ▽ˋ*)</a>;
     const cat4 = <a href = "#home">∧,,,,∧<br/>(  ◕‿◕)</a>;
-    const catArray = [cat0, cat1, cat2, cat3, cat4, pogCat];
+    const cat5 = <a href = "#home">∧,,,,∧<br/>( ｡ -ω-)</a>;
+
+    const catArray = [cat0, cat1, cat2, cat3, cat4, cat5, pogCat];
 
     const [cat, setCat] = React.useState(cat0);
-    //const [prevCat, setPrevCat] = React.useState(-1);
     const [currCat, setCurrCat] = React.useState(0);
 
     const mouseDown = () => {
-        setCat(catArray[5]);
+        setCat(catArray[catArray.length - 1]);
     };
 
     const mouseUp = () => {
@@ -24,8 +25,8 @@ export default function NavDisplay() {
 
     const mouseHover = () => {
         const min = 0;
-        const max = 4;
-        //setPrevCat(currCat);
+        const max = catArray.length - 2;
+
         let rand;
         do {
             rand = min + Math.round(Math.random() * (max - min));
@@ -34,7 +35,7 @@ export default function NavDisplay() {
         setCurrCat(rand);
         setCat(catArray[currCat]);
 
-        console.log(`rand: ${rand}, currCat: ${currCat}`);
+        //console.log(`rand: ${rand}, currCat: ${currCat}`);
     }
 
     return (<div className = "navbar">

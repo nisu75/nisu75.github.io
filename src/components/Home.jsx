@@ -57,6 +57,10 @@ export default function HomeDisplay() {
             <p className="p2">
                 ❤
             </p>
+            <p className="notice">
+                ** Site is a work in progress ٩( ᐛ )( ᐖ )۶
+	
+            </p>
         </div>
         <div className="cats">
             <pre className="cat"> {cat} </pre>

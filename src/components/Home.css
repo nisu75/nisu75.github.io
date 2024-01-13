@@ -27,6 +27,11 @@
     display: inline;
 }
 
+.notice{
+    font-family: 'sometype', Times, serif;
+    margin-top: 50px;
+}
+
 .cat{
     font-family: 'arialuni', Arial, sans-serif;
     text-align: left;

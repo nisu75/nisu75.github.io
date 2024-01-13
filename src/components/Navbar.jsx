@@ -11,7 +11,7 @@ export default function NavDisplay() {
     const catArray = [cat0, cat1, cat2, cat3, cat4, pogCat];
 
     const [cat, setCat] = React.useState(cat0);
-    const [prevCat, setPrevCat] = React.useState(-1);
+    //const [prevCat, setPrevCat] = React.useState(-1);
     const [currCat, setCurrCat] = React.useState(0);
 
     const mouseDown = () => {
@@ -25,15 +25,16 @@ export default function NavDisplay() {
     const mouseHover = () => {
         const min = 0;
         const max = 4;
-        
+        //setPrevCat(currCat);
         let rand;
         do {
             rand = min + Math.round(Math.random() * (max - min));
         } 
-        while (rand == prevCat);
-        setPrevCat(currCat);
+        while (rand == currCat);
         setCurrCat(rand);
         setCat(catArray[currCat]);
+
+        console.log(`rand: ${rand}, currCat: ${currCat}`);
     }
 
     return (<div className = "navbar">

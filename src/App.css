@@ -1,7 +1,16 @@
-.App {
-  text-align: center;
+html, body, #root, .App {
+  height: 100%;
 }
 
+.App {
+  text-align: center;
+  background-color: #FEF0F3;
+  color: #131313;
+  height:100%;
+}
+
+
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +45,4 @@
     transform: rotate(360deg);
   }
 }
+*/

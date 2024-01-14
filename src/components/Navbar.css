@@ -1,11 +1,11 @@
-@import "../stylesheet.css";
+@import "../fontsheet.css";
 
 .navbar{
     font-family: 'sometype', Times, serif;
     font-size: 12px;
 }
 
-.topbar {
+.topbar{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@
     position: fixed;
 }
 
-.homebutton a {
+.homebutton a{
     font-family: 'arialuni', Arial, sans-serif;
     float: left;
     width: 50px;
@@ -28,7 +28,7 @@
     display: inline;
 }
 
-.navlink {
+.navlink{
     font-family: 'sometype', Times, serif;
     float: left;
     display: block;
@@ -41,7 +41,7 @@
     position: relative;
 }
 
-.navlink::before {
+.navlink::before{
     content: '';
     position: absolute;
     display: block;
@@ -55,11 +55,11 @@
     transition: transform 0.3s ease-out;
 }
 
-.navlink:hover::before {
+.navlink:hover::before{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
 
-.navlink.active {
+.navlink.active{
     font-style: italic;
 }

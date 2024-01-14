@@ -1,10 +1,10 @@
-.foot {
+.foot{
     font-family: 'sometype', Times, serif;
     font-size: 12px;
     width: 100%;
 }
 
-.footlist {
+.footlist{
     list-style-type: none;
     margin: 0;
     bottom: 0;
@@ -13,7 +13,7 @@
     position: fixed;
 }
 
-.foottext {
+.foottext{
     float: left;
     display: block;
     color: #131313;
@@ -26,13 +26,13 @@
     font-weight: bold;
 }
 
-.footlink {
+.footlink{
     color: #131313;
     text-decoration: none;
     font-weight: normal;
 }
 
-.footlink::before {
+.footlink::before{
     content: '';
     position: absolute;
     display: block;
@@ -46,7 +46,7 @@
     transition: transform 0.3s ease-out;
 }
 
-.footlink:hover::before {
+.footlink:hover::before{
     transform: scaleX(1);
     transform-origin: bottom left;
 }

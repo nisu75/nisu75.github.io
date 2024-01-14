@@ -1,21 +1,18 @@
-.about{
-    height:100%;
-    display:flex;
-    flex-direction: row;
+.abtdescription{
+    margin-bottom: 7.5px;
 }
 
-.text{
-    font-size: 12px;
-    font-weight: normal;
+.abtdivider{
     font-style: normal;
-    margin-left: 60px;
-    margin-top: 100px;
-    width: 360px;
-    text-align: left;
-    line-height: 1.2;
+    font-weight: normal;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
-.p1{
-    font-family: 'sometype', Times, serif;
-    display: inline;
+.extra{
+    padding-top: 0.1px;
+}
+
+.desc{
+    font-style: italic;
 }

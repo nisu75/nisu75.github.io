@@ -19,23 +19,34 @@ export default function NavDisplay() {
     const cat3 = <text>&nbsp;∧,,,,∧<br/>(  *ˊ▽ˋ*)</text>;
     const cat4 = <text>&nbsp;∧,,,,∧<br/>(  ◕‿◕)</text>;
     const cat5 = <text>&nbsp;∧,,,,∧<br/>( ｡ -ω-)</text>;
+    const cat6 = <text>&nbsp;∧,,,,∧<br/>( ≧▽≦)</text>;
+    const cat7 = <text>&nbsp;∧,,,,∧<br/>( ๑˃ᴗ˂)</text>;
+    const cat8 = <text>&nbsp;∧,,,,∧<br/>( *ˊᗜˋ*)</text>;
+    const cat9 = <text>&nbsp;∧,,,,∧<br/>( ♡///♡)</text>;
+    const cat10 = <text>&nbsp;∧,,,,∧<br/>( ｡¯ ³¯ ) ♪</text>;
+    const cat11 = <text>&nbsp;∧,,,,∧<br/>( ๑`^´๑)</text>;
+    const cat12 = <text>&nbsp;∧,,,,∧<br/>( ⊙_⊙)</text>;
+    const cat13 = <text>&nbsp;∧,,,,∧<br/>( ｡ •̀ᴗ- )✧</text>;
+    const cat14 = <text>&nbsp;∧,,,,∧<br/>( ◕ᴥ◕)</text>;
+    const cat15 = <text>&nbsp;∧,,,,∧<br/>( ⓛᴥⓛ)</text>;
+    const cat16 = <text>&nbsp;∧,,,,∧<br/>( ｡ಠᴥಠ)</text>;
 
-    const catArray = [cat0, cat1, cat2, cat3, cat4, cat5, pogCat];
+    const catArray = [pogCat, cat0, cat1, cat2, cat3, cat4, cat5, cat6, cat7, cat8, cat9, cat10, cat11, cat12, cat13, cat14, cat15, cat16];
 
     const [cat, setCat] = React.useState(cat0);
     const [currCat, setCurrCat] = React.useState(0);
 
     const mouseDown = () => {
-        setCat(catArray[catArray.length - 1]);
-    };
-
-    const mouseUp = () => {
         setCat(catArray[0]);
     };
 
+    const mouseUp = () => {
+        setCat(catArray[1]);
+    };
+
     const mouseHover = () => {
-        const min = 0;
-        const max = catArray.length - 2;
+        const min = 1;
+        const max = catArray.length - 1;
 
         let rand;
         do {

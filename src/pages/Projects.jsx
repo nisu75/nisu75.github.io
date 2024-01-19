@@ -18,14 +18,14 @@ export default function ProjectsDisplay() {
                     </p>
                 </p>
                 <p className="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet viverra neque. Nunc in urna sagittis, feugiat risus quis, feugiat ex. In rutrum mauris eu convallis finibus. Donec pellentesque.
+                    a simple weather app created with React - working on adding information relating to cloud coverage and finding ideal spots for stargazing considering elapsed time for travel
                 </p>
                 <p className="arrow">
                     ↳
                 </p>
                 <p className="note">
-                    <a className="link" href="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" target="_blank" rel="noopener noreferrer">
-                        sample link
+                    <a className="link" href="https://github.com/toaster203/weather-app" target="_blank" rel="noopener noreferrer">
+                        github
                     </a>
                 </p>
             </p>
@@ -38,14 +38,14 @@ export default function ProjectsDisplay() {
                     </p>
                 </p>
                 <p className="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet viverra neque. Nunc in urna sagittis, feugiat risus quis, feugiat ex. In rutrum mauris eu convallis finibus. Donec pellentesque.
+                    a frog-themed web app centered around the Eat the Frog productivity method, adding the right vibes of music to your Pomodoro study sessions
                 </p>
                 <p className="arrow">
                     ↳
                 </p>
                 <p className="note">
-                    <a className="link" href="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHdremJuZnc3cmVmOWwzOHF2bWxybjBvZXY2Ym15YmY4ZjVqb3J1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/v6aOjy0Qo1fIA/giphy.gif" target="_blank" rel="noopener noreferrer">
-                        sample link
+                    <a className="link" href="https://devpost.com/software/feed-the-frog" target="_blank" rel="noopener noreferrer">
+                        devpost
                     </a>
                 </p>
             </p>
@@ -58,14 +58,14 @@ export default function ProjectsDisplay() {
                     </p>
                 </p>
                 <p className="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet viverra neque. Nunc in urna sagittis, feugiat risus quis, feugiat ex. In rutrum mauris eu convallis finibus. Donec pellentesque.
+                    a retro pixel art Simon Says game with a GUI made using Java Swing, created as the final project for our grade 11 computer science course
                 </p>
                 <p className="arrow">
                     ↳
                 </p>
                 <p className="note">
-                    <a className="link" href="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExem8zYWdvYmEyMnYxdXNqOTd0NWNkcjV4eGxnd3ptdGlhbGIwMzMwcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vFKqnCdLPNOKc/giphy.gif" target="_blank" rel="noopener noreferrer">
-                        sample link
+                    <a className="link" href="https://github.com/toaster203/Simon-Says" target="_blank" rel="noopener noreferrer">
+                        github
                     </a>
                 </p>
             </p>            

@@ -54,9 +54,11 @@ export default function NavDisplay() {
             <li className = "navbutton">
                 <NavLink className = "navlink" to="/projects">Projects</NavLink>
             </li>
+            {/*
             <li className = "navbutton">
                 <NavLink className = "navlink" to="/fun">Fun</NavLink>
             </li>
+            */}
             <li className = "navbutton">
                 <NavLink className = "navlink" to="/about">About</NavLink>
             </li>       

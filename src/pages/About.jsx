@@ -5,8 +5,16 @@ export default function AboutDisplay() {
     return (<div className="page">
         <div className="text">
             <div className="abtdescription">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna lectus, pulvinar quis elit nec, pulvinar varius lacus. Morbi tempus vehicula lectus, ac pellentesque nunc pellentesque et. Fusce mollis, elit nec lobortis varius, nunc tortor ornare nisl, ut vestibulum mauris leo molestie dui. Morbi tincidunt erat non ante condimentum suscipit. Pellentesque posuere laoreet feugiat. Curabitur iaculis ex eget maximus lobortis. Nam convallis neque ut velit cursus, id suscipit elit ullamcorper. Maecenas aliquam, arcu sit amet pretium consequat, massa arcu finibus.
+            Nice to meet you! I'm Nicole, a Computer Science student at the University of Waterloo. 
+            <br /><br />
+            I'm interested in cybersecurity and front-end development, as well as digital product design. I've dabbled in photo and video editing, and done more than just dabbling in graphic design, music, and visual art. 
+            <br /><br />
+            I enjoy solving problems and facing new challenges, perfect for navigating the constantly evolving tech landscape. I appreciate the constant exploration and learning that new projects bring, and I'd love to pursue technology that drives significant and impactful real-world advancements.
+            <br /><br />
+            Feel free to reach out - I'd love to chat and connect more!
             </div>
+
+            {/*
             <p className="arrow">
                 ↳
             </p>
@@ -15,6 +23,7 @@ export default function AboutDisplay() {
                     sample link
                 </a>
             </p>
+            */}
 
             <p className="abtdivider">
                 ~~

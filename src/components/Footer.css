@@ -13,7 +13,7 @@
     overflow: hidden;
     position: fixed;
     height:100px;
-    display:flex;
+    display: flex;
     background: linear-gradient(#fef0f300, 20%, #FEF0F3, 50%, #FEF0F3);
 }
 
@@ -69,13 +69,13 @@
     transform-origin: bottom left;
 }
 
-/* For mobile phones: */
+/* mobile phones */
 [class*="col-"] {
     width: 100%;
-  }
+}
   
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
+/* small screen size - shows icons */
+@media only screen and (max-width: 600px) {
     .footlist {
         height: 180px;
         flex-direction: column;
@@ -94,7 +94,6 @@
     }
 
     .footiconlist{
-        display: flex;
         flex-direction: row;
         display: inline;
         padding-left: 0;
@@ -122,9 +121,9 @@
     }
   }
 
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 600px) {
+
+/* medium screen size - shows links w/ text above */
+@media only screen and (min-width: 600px) {
     .footlist {
         height: 180px;
         flex-direction: column;
@@ -139,7 +138,6 @@
     }
 
     .footlinklist{
-        display: flex;
         flex-direction: row;
         display: inline-block;
         padding-bottom: 30px;
@@ -153,10 +151,10 @@
     .footiconlist{
         display: none;
     }
-  }
+}
   
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 740px) {
+/* large screen size - shows links side-by-side */
+@media only screen and (min-width: 740px) {
     .touchfoot {
         margin-top: auto;
         padding-left: 40px;
@@ -180,4 +178,4 @@
     .footiconlist{
         display: none;
     }
-  }
+}

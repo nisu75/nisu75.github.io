@@ -11,13 +11,17 @@
     width: 100%;
     overflow: hidden;
     position: fixed;
+    height:100px;
+    display:flex;
+    flex-direction: row;
+    background: linear-gradient(#fef0f300, 20%, #FEF0F3, 50%, #FEF0F3);
 }
 
 .foottext{
     float: left;
-    display: block;
     color: #131313;
     text-decoration: none;
+    margin-top: auto;
     margin-bottom: 30px;
     margin-left: 20px;
     margin-right: 30px;

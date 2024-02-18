@@ -13,6 +13,8 @@
     width: 100%;
     overflow: hidden;
     position: fixed;
+    height: 100px;
+    background-image: linear-gradient(0deg, #fef0f300, 10%, #FEF0F3, 20%, #FEF0F3);  
 }
 
 .homebutton a{

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import burgerIcon from '../icons/burger.svg';
 
 export default function NavDisplay() {
     /*

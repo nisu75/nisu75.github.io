@@ -7,7 +7,7 @@ export default function HomeDisplay() {
   |、˜〵
  じしˍ,)ノ`;
 
-    const cat1 = String.raw`ㅤ ∧＿∧
+    const cat1 = String.raw`    ∧＿∧
 　(　･∀･)
 　(　つ┳⊃
 ε (_)へ⌒ヽﾌ
@@ -58,8 +58,9 @@ export default function HomeDisplay() {
                 ❤
             </p>
             <p className="notice">
-                ** Site is a work in progress ٩( ᐛ )( ᐖ )۶
-	
+                ** Site is a work in progress **
+                <br />
+                ٩( ᐛ )( ᐖ )۶
             </p>
         </div>
         <div className="cats">

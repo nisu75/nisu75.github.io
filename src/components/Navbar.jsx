@@ -58,10 +58,20 @@ export default function NavDisplay() {
         setCat(catArray[currCat]);
     }
 
-    return (<div className = "navbar">
+    const [hamburgerOpen, setHamburgerOpen] = useState(false);
+
+    const toggleHamburger = () => {
+        setHamburgerOpen(!hamburgerOpen);
+    }
+
+    return (
+    <div className = "navbar">
         <ul className = "topbar">
-            <li className = "homebutton" onMouseDown={mouseDown} onMouseUp={mouseUp} onMouseEnter={mouseHover}>
-                <NavLink exact to="/">{cat}</NavLink>
+            <div className="hamburger" onClick={toggleHamburger}>
+                <img className="burger" src={burgerIcon} width="100" height="100"/>
+            </div>
+            <li className = "homebutton">
+                <NavLink exact to="/" onMouseDown={mouseDown} onMouseUp={mouseUp} onMouseEnter={mouseHover}>{cat}</NavLink>
             </li>
             <li className = "navbutton">
                 <NavLink className = "navlink" to="/projects">Projects</NavLink>
@@ -75,5 +85,6 @@ export default function NavDisplay() {
                 <NavLink className = "navlink" to="/about">About</NavLink>
             </li>       
         </ul>
-    </div>)
+    </div>
+    )
 }

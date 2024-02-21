@@ -65,3 +65,28 @@
 .navlink.active{
     font-style: italic;
 }
+
+/* small screen size - shows burger */
+@media only screen and (max-width: 400px) {
+    .burger{
+        height: 35px;
+        margin-top: 32px;
+        margin-left: 22px;
+        display: none;
+    }
+
+    .navbutton{
+        display: inline;
+    }
+
+    .topbar{
+        display: inline-flex;
+    }
+}
+
+/* small screen size - shows menu */
+@media only screen and (min-width: 400px) {
+    .burger{
+        display: none;
+    }
+}

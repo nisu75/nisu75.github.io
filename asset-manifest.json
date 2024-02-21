@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfa20d99.css",
-    "main.js": "/static/js/main.930daab2.js",
+    "main.css": "/static/css/main.f31cbb15.css",
+    "main.js": "/static/js/main.81806d4b.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/arialuni.ttf": "/static/media/arialuni.ebf078e8d1a419d60e1f.ttf",
     "static/media/inter.ttf": "/static/media/inter.853e01975d2783d9fa29.ttf",
@@ -15,17 +15,17 @@
     "static/media/sometype-italic.woff2": "/static/media/sometype-italic.b1a20c2d1ad1b10a59c8.woff2",
     "static/media/sometype.woff2": "/static/media/sometype.467511c1d5d0a7c11fae.woff2",
     "static/media/arialuni.woff2": "/static/media/arialuni.36524e8d9357cb856722.woff2",
-    "static/media/email.svg": "/static/media/email.2cf8522ee1c8fe6b8a5e61d04c0754a6.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.417e97e8b4919c6724674d253204af1b.svg",
-    "static/media/instagram.svg": "/static/media/instagram.a356a1ae04f338f26a23c64c854b2a62.svg",
+    "static/media/email.svg": "/static/media/email.5ca990c1480075bc38db16f8f1632a60.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.a57167f31d25e3f4390f465464833c5e.svg",
+    "static/media/instagram.svg": "/static/media/instagram.e8c456a4955c1a83f60b531fe7b56739.svg",
     "index.html": "/index.html",
-    "static/media/burger.svg": "/static/media/burger.075755066736e216d5012a52d688ab4c.svg",
-    "main.cfa20d99.css.map": "/static/css/main.cfa20d99.css.map",
-    "main.930daab2.js.map": "/static/js/main.930daab2.js.map",
+    "static/media/burger.svg": "/static/media/burger.7b4bc772d5adc99e91ce7b8f8d5cd4f1.svg",
+    "main.f31cbb15.css.map": "/static/css/main.f31cbb15.css.map",
+    "main.81806d4b.js.map": "/static/js/main.81806d4b.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfa20d99.css",
-    "static/js/main.930daab2.js"
+    "static/css/main.f31cbb15.css",
+    "static/js/main.81806d4b.js"
   ]
 }
